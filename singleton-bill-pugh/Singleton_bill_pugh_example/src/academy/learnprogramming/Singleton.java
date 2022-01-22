@@ -14,7 +14,7 @@ public class Singleton {
     private Singleton() {}
 
     private static class SingletonHelper {
-        // Nested class is refernced after getInstance() is called
+        // Nested class is referenced after getInstance() is called
         private static final Singleton uniqueInstance = new Singleton();
     }
 

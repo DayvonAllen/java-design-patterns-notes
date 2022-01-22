@@ -17,7 +17,5 @@ public class Client {
 
         //call draw method of square
         shape3.draw();
-
-
     }
 }
